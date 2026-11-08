@@ -21,13 +21,13 @@ El programa ayudaría a los investigadores a diseñar fármacos frente a diversa
 
 ## Índice
 
-- [Guía de instalación]
-- [Workflow]
-- [Funcionamiento interno]
-- [Salidas(outputs)]
-- [Interpretación biológica]
-- [Limitaciones y consideraciones]
-- [Licencia]
+- [Guía de instalación](#Guía-de-instalación)
+- [Workflow](#Workflow)
+- [Funcionamiento interno](#Funcionamiento-interno)
+- [Salidas(outputs)](#Salidas(outputs))
+- [Interpretación biológica](#Interpretación-biológica)
+- [Limitaciones y consideraciones](#Limitaciones-y-consideraciones)
+- [Licencia](#Licencia)
 
 ---
 
