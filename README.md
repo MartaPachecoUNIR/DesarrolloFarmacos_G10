@@ -62,12 +62,22 @@ El análisis del bruto del RNAseq se compone de 3 ficheros.
 
 ### 4.
 
-### 5.
+### 5. Análisis ADMET
+
+En este modulo se clasificarán según su perfil ADMET los candidatos del módulo anterior.
+
+Utilizará como fichero de entrada los identificadores SMILES de los candidatos seleccionados y realizará las siguientes funciones
+1. Cálculo de los descriptores moleculares con 'molecular_descriptors.py'.
+2. Predicción de las propiedades ADME (Absorción, Distribución, Metabolismo y Excreción) con 'adme_prediction.py'.
+3. Predicción de toxicidad con 'toxicity_prediction.py'.
+4. Entrenamiento y evaluación de un modelo de Machine Learning capaz de predecir las propiedades ADMET con 'model_training.py'.
+5. Evaluación y clasificación final de los candidatos con 'admet_scoring.py'
 
 ---
 
 ## Salidas(outputs)
 
+Este programa creará finalmente un archivo llamado 'final_candidates.csv' el cual contendrá un ranking de los candidatos seleccionados según sus propiedades fisicoquímicas y farmacocinéticas que podrá ser utilizado para futuras fases de investigación 
 
 ---
 
