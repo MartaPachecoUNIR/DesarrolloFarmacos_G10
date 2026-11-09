@@ -64,7 +64,7 @@ El análisis del bruto del RNAseq se compone de 3 ficheros.
 
 ### 5. Análisis ADMET
 
-En este modulo se clasificarán según su perfil ADMET los candidatos del módulo anterior.
+En este módulo se clasificarán según su perfil ADMET los candidatos del módulo anterior.
 
 Utilizará como fichero de entrada los identificadores SMILES de los candidatos seleccionados y realizará las siguientes funciones
 1. Cálculo de los descriptores moleculares con 'molecular_descriptors.py'.
