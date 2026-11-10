@@ -1,4 +1,4 @@
-FASE 2: PREPARACIÓN Y OPTIMIZACIÓN DEL LIGANDO
+# FASE 2: PREPARACIÓN Y OPTIMIZACIÓN DEL LIGANDO
 
 **Herramienta:**  ArgusLab (http://www.arguslab.com/arguslab.com/ArgusLab.html)
 
