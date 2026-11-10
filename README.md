@@ -1,11 +1,11 @@
 # DesarrolloFarmacos_G10
 
 ## Autoría: 
-  Marta Pacheco Cacho
-  María Isabel Rivero Bernabé
-  Miguel Ángel García de Castro
-  Ricardo Vidal Rosales
-  Valeria Natalie Fernández Morocho
+  Marta Pacheco Cacho,
+  María Isabel Rivero Bernabé,
+  Miguel Ángel García de Castro,
+  Ricardo Vidal Rosales,
+  Valeria Natalie Fernández Morocho.
 
 ---
 
