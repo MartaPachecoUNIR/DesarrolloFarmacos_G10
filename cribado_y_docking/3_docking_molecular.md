@@ -1,5 +1,5 @@
-FASE 3: Docking
-Herramienta : Gold
+# FASE 3: DOCKING MOLECULAR
+Herramienta : Gold (ttps://www.ccdc.cam.ac.uk/solutions/software/gold/)
 
 Pasos:
 1. Definir el sitio de unión (binding site) en la proteína utilizando las coordenadas del ligando de referencia.
