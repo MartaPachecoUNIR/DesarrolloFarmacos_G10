@@ -1,5 +1,5 @@
-FASE 4: Cribado virtual
-**Herramienta:** : Docking
+# FASE 4: CRIBADO VIRTUAL
+**Herramienta:** : Docking (ttps://www.ccdc.cam.ac.uk/solutions/software/gold/)
 
 Pasos:
 1. Definir los parámetros y criterios de interacción que se deseen respecto al sitio activo de la proteína diana.
