@@ -1,4 +1,4 @@
-# FASE 1: PREPARACIÓN DE LA PROTEÍNA DIANA
+# FASE 1: PREPARACION DE LA PROTEINA DIANA
 **Herramienta:** Hermes-Gold
 Pasos:
 1. Cargar el archivo tridimensional de la proteína de interés.
