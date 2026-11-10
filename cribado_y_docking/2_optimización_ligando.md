@@ -1,5 +1,5 @@
 FASE 2: PREPARACIÓN Y OPTIMIZACIÓN DEL LIGANDO
-**Herramienta:** ArgusLab (http://www.arguslab.com/arguslab.com/ArgusLab.html)
+**Herramienta:**         ArgusLab (http://www.arguslab.com/arguslab.com/ArgusLab.html)
 
 Pasos:
 1. Cargar el archivo del ligando extraído en la fase anterior.
