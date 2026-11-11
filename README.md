@@ -56,14 +56,23 @@ El análisis del bruto del RNAseq se compone de 3 ficheros.
   -  El segundo, llamado `alineamiento.py` se encargaría del alineamiento de los transcritos con el genoma de referencia, para así poder identificarlos
   -  El tercero, llamado `cuantificación_y_selección.py` se encargaría de cuantificar los distintos transcritos y, a partir de la expresión diferencial respecto a sus referencias, la selección de aquellos más llamativos como posibles dianas en el diseño de fármacos frente a la patología
 
-### 2.
+### 2. AlphaFold
 
-### 3. Optimización estructural mediante IA generativa
+El objetivo principal de utilizar AlphaFold es predecir la estructura tridimensional de las proteínas seleccionadas como posibles dianas terapéuticas a partir de sus secuencias de aminoácidos. La carpeta alphafold/ se organiza en dos subcarpetas principales y un fichero independiente, cada uno destinado a almacenar una parte específica de la información necesaria para el análisis de las proteínas seleccionadas mediante AlphaFold.
 
-El análisis mediante inteligencia artificial generativa se compone de 3 ficheros.
-- El primero, llamado `analisis_estructural.py` se encargaría de evaluar los modelos tridimensionales obtenidos mediante AlphaFold, identificando posibles regiones de baja confianza o imperfecciones estructurales.
-- El segundo, llamado `generacion_conformacional.py` se encargaría de utilizar modelos de inteligencia artificial generativa para obtener conformaciones alternativas de las proteínas diana, explorando así su posible flexibilidad estructural.
-- El tercero, llamado `validacion_y_seleccion.py`, se encargaría de evaluar la calidad estructural de los modelos generados, comprobando su compatibilidad con la secuencia aminoacídica original y seleccionando aquellos más adecuados para su utilización en el posterior cribado virtual.
+1) secuencias_proteinas/
+
+Esta carpeta contiene las secuencias de aminoácidos de las proteínas seleccionadas como posibles dianas terapéuticas, almacenadas en formato FASTA. Estas secuencias constituyen los datos de entrada que utiliza AlphaFold para predecir la estructura tridimensional de cada proteína.
+
+2) analisis_estructural/
+
+Esta carpeta almacena los archivos con extensión .pdb, que contienen las estructuras tridimensionales de las proteínas predichas mediante AlphaFold. Estos archivos permiten estudiar la conformación espacial de las proteínas y realizar análisis estructurales posteriores, como la identificación de regiones funcionales o posibles sitios de unión a moléculas.
+
+3) seleccion_dianas
+
+Este fichero recoge la información relativa a las proteínas seleccionadas como posibles dianas terapéuticas. Incluye su identificación, justificación de la selección y relación con el proceso de desarrollo de fármacos. 
+
+### 3.
 
 ### 4. Cribado Virtual y Docking Molecular
 
