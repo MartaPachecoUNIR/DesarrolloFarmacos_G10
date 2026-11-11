@@ -1,3 +1,0 @@
-# Esta carpeta tiene como finalidad almacenar las secuencias de aminoácidos de las proteínas seleccionadas como posibles dianas terapéuticas.
-# Se utilizarán como datos de entrada para realizar predicciones estructurales mediante AlphaFold.
-# Se observa las secuencias fasta de EGFR, BRAF y KRAS como ejemplo de archivos que deberían subirse a esta carpeta.
