@@ -58,7 +58,12 @@ El análisis del bruto del RNAseq se compone de 3 ficheros.
 
 ### 2.
 
-### 3.
+### 3. Optimización estructural mediante IA generativa
+
+El análisis mediante inteligencia artificial generativa se compone de 3 ficheros.
+- El primero, llamado `analisis_estructural.py` se encargaría de evaluar los modelos tridimensionales obtenidos mediante AlphaFold, identificando posibles regiones de baja confianza o imperfecciones estructurales.
+- El segundo, llamado `generacion_conformacional.py` se encargaría de utilizar modelos de inteligencia artificial generativa para obtener conformaciones alternativas de las proteínas diana, explorando así su posible flexibilidad estructural.
+- El tercero, llamado `validacion_y_seleccion.py`, se encargaría de evaluar la calidad estructural de los modelos generados, comprobando su compatibilidad con la secuencia aminoacídica original y seleccionando aquellos más adecuados para su utilización en el posterior cribado virtual.
 
 ### 4. Cribado Virtual y Docking Molecular
 
